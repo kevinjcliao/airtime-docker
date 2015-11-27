@@ -10,4 +10,4 @@ RUN apt-get install -y sourcefabric-keyring --force-yes
 RUN apt-get update -qq
 RUN apt-get install -y airtime
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-EXPOSE 443
+EXPOSE 80
